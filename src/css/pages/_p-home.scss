@@ -1,0 +1,70 @@
+//
+// Pages Home
+//
+
+$red: #d41111;
+$blue: #2863a7;
+
+.p-form {
+  background-image: image("bg-landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  &__steps {
+    letter-spacing: -0.06rem;
+    span {
+      padding: 0.2rem 0.5rem;
+    }
+  }
+  &__form {
+    input[type="file"] {
+      -webkit-appearance:none; 
+      position:absolute;
+      top:0;
+      left:0;
+      opacity:0;
+    }
+    label.error {
+      color: red;
+      position: absolute;
+      left: 0;
+      bottom: -1.1rem;
+      font-size: var(--text-sm);
+    }
+  }
+  &__modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  &__footer {
+    a, p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: var(--text-sm);
+    }
+    a {
+      color: #589dfc;
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    &__footer {
+      text-align: center;
+      div, a, img {
+        display: block;
+        margin: 0;
+      }
+      img {
+        margin: 1rem auto;
+      }
+    }
+  }
+  @include media-breakpoint-down(md) {
+    background-image: image("bg-landing-mobile.jpg");
+    &__aguila{
+      width: 8rem;
+    }
+  }
+}

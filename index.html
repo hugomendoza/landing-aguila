@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <title>Landing Aguila</title>
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+  <body class="p-form">
+    <section>
+      <div class="w-full max-w-xl mx-auto pt-20 px-4 md:px-0">
+        <img
+          src="./dist/img/logo-aguila.png" alt="Cerveza Aguila"
+          class="mx-auto block p-form__aguila"
+        >
+        <img
+          src="./dist/img/titulo.png"
+          alt="Con litrazo Aguila ya Ganaste"
+          class="mt-8 block"
+        >
+        <div class="p-form__steps mt-8 space-y-4">
+          <p class="uppercase text-primary-500 text-md md:text-lg leading-normal">
+            <span class="bg-secondary-500 text-white rounded-full">1.</span>
+            Registra tus datos.
+          </p>
+          <p class="uppercase text-primary-500 text-md md:text-lg leading-normal">
+            <span class="bg-secondary-500 text-white rounded-full">2.</span>
+            Sube tu evidencia mostrándonos que le dijiste a tu ex: “si el litrazo puede retornar, ¿por qué tu y yo no?”
+          </p>
+          <p class="uppercase text-primary-500 text-md md:text-lg leading-normal">
+            <span class="bg-secondary-500 text-white rounded-full">3.</span>
+            Revisa tu mail y sigue los pasos para ganar $10.000 en puntos tap it.
+          </p>
+        </div>
+      </div>
+      <div class="p-form__form mt-8 w-full max-w-xl mx-auto">
+        <form action="" id="form" class="bg-primary-500 px-4 md:px-8 py-12 font-headline">
+          <p class="text-center text-white uppercase leading-tight text-md md:text-xl">COMPLETA ESTE FORMULARIO PARA RECIBIR CONTENIDO EXCLUSIVO DE AGUILA</p>
+          <div class="p-form__form__input mt-6 relative">
+            <label class="block uppercase text-white text-md md:text-lg">nombre y apellido</label>
+            <input class="w-full mt-1 px-2" type="text" name="name">
+          </div>
+          <div class="p-form__form__input mt-6 relative">
+            <label class="block uppercase text-white text-md md:text-lg">número de cedula</label>
+            <input class="w-full mt-1 px-2" type="text" name="id">
+          </div>
+          <div class="p-form__form__input mt-6 relative">
+            <span class="block uppercase text-white text-md md:text-lg">correo</span>
+            <input class="w-full mt-1 px-2" type="text" name="email">
+          </div>
+          <div class="p-form__form__input mt-6 relative">
+            <label class="block uppercase text-white text-md md:text-lg">ciudad</label>
+            <select id="" class="w-full py-1 px-2" name="city">
+              <option value="">Selecciona una ciudad</option>
+              <option value="1">Bogotá</option>
+              <option value="2">Cali</option>
+            </select>
+          </div>
+          <div class="p-form__form__input mt-6 relative">
+            <label class="label-upload w-full inline-block bg-white text-primary-500 uppercase text-center py-1" for="img">subir imagen</label>
+            <input type="file" id="img" name="img" accept="image/*" class="w-full bg-white uppercase text-primary-500">
+          </div>
+          <div class="p-form__form__input mt-6 flex items-center relative">
+            <input type="checkbox" class="w-4 h-4 mr-1" name="policy" id="policy">
+            <label for="policy" class="uppercase text-white text-sm md:text-lg">acepto <a href="" class="underline">términos y condiciones</a> y <a href="" class="underline">políticas de privacidad</a></label>
+          </div>
+          <input type="submit" value="enviar" class="btn-send mt-8 w-full text-primary-500 uppercase text-lg">
+        </form>
+      </div>
+    </section>
+    <section class="p-form__modal fixed top-0 left-0 w-full h-full z-10">
+      <div class="w-11/12 max-w-sm bg-white mt-32 p-4 mx-auto rounded-md space-y-4 text-center text-primary-500 leading-tight text-sm">
+        <img src="./dist/img/logo-tapit.png" alt="Logo Tapit" class="block mx-auto">
+        <p class="font-bold uppercase">¡TUS DATOS FUERON REGISTRADOS CORRECTAMENTE!</p>
+        <p class="font-bold uppercase">RECIBE ESTE CÓDIGO DE PROMOCIÓN DE TAPIT</p>
+        <p class="bg-gray-200 py-2 px-6 table mx-auto border border-gray-300 rounded-md text-gray-700 text-xs">CONAGUILAYAGANASTE</p>
+      </div>
+    </section>
+    <footer class="p-form__footer mt-24 bg-white py-4 px-8">
+      <div class="flex justify-center items-center">
+        <div class="mr-8">
+          <img src="./dist/img/logo-aguila.png" alt="Cerveza Aguila" class="w-24 mx-auto lg:m-0">
+        </div>
+        <div>
+          <div class="p-form__footer__links flex justify-between">
+            <a href="" class="font-sans underline">Hablemos de Alcohol</a>
+            <a href="" class="font-sans underline">Términos y Condiciones</a>
+            <a href="" class="font-sans underline">Privacidad y Cookies</a>
+          </div>
+          <div class="p-form__footer__links flex justify-center mt-2">
+            <div class="mr-6">
+              <img src="./dist/img/img-prohibise.png" alt="">
+            </div>
+            <p>Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!--jQuery Validate-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Validation script -->
+    <script>
+      jQuery("#form").validate({
+        rules: {
+          name: {required: true},
+          id: {
+            required: true,
+            digits: true
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          city: {required: true},
+          img: {required: true},
+          policy: {required: true}
+        },
+        messages: {
+          name: {required: "Escribe tu nombre"},
+          id: {
+            required: "Escribe tu número de documento",
+            digits: "Escribe solo números",
+          },
+          email: {
+            required: "Escribe tu dirección de correo",
+            email: "Ingresa una dirección de correo válida"
+          },
+          city: {required: "Selecciona tu ciudad"},
+          img: {required: "Sube una imagen"},
+          policy: {required: "Acepta política de datos"}
+        }
+      });
+
+      jQuery(".btn-send").click(function (e) { 
+        e.preventDefault();
+        if(jQuery('#form').valid()) {
+          jQuery('.p-form__modal').fadeIn();
+        }
+      });
+    </script>
+    <!-- Custom script -->
+    <script src="./../dist/js/vendor.bundle.js"></script>
+    <script src="./../dist/js/main.bundle.js"></script>
+  </body>
+</html>

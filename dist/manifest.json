@@ -1,0 +1,19 @@
+{
+  "main.css": "../css/main.css?ac3b",
+  "main.js": "../js/main.bundle.js",
+  "main.js.map": "../js/main.bundle.js.map",
+  "vendor.js": "../js/vendor.bundle.js",
+  "vendor.js.map": "../js/vendor.bundle.js.map",
+  "assets/README.md?117558f2a0f44b07c4064c9cd712fd60": "../assets/README.md?117558f2a0f44b07c4064c9cd712fd60",
+  "css/main.css.map?ac3b": "../css/main.css.map?ac3b",
+  "fonts/main.scss": "../fonts/blockbe-condensed.eot?db81",
+  "img/bg-landing-mobile.jpg": "../img/bg-landing-mobile.jpg?d849",
+  "img/bg-landing.jpg": "../img/bg-landing.jpg?c827",
+  "img/es6.jpg": "../img/es6.jpg?c005",
+  "img/img-prohibise.png": "../img/img-prohibise.png?6a91",
+  "img/logo-aguila.png": "../img/logo-aguila.png?f4db",
+  "img/logo-tapit.png": "../img/logo-tapit.png?76b6",
+  "img/titulo.png": "../img/titulo.png?5dec",
+  "js/main.bundle.js.LICENSE.txt": "../js/main.bundle.js.LICENSE.txt",
+  "js/vendor.bundle.js.LICENSE.txt": "../js/vendor.bundle.js.LICENSE.txt"
+}
